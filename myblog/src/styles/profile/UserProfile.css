@@ -1,0 +1,46 @@
+/* UserProfile Container */
+.user-profile-container {
+  display: flex;
+}
+
+/* Sidebar Menu Styles */
+.sidebar {
+  width: 200px;
+  padding: 1rem;
+  background-color: #6554AF;
+  color: #fff;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.sidebar a:hover {
+  background-color: #544396;
+}
+
+/* Profile Content Styles */
+.profile-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f1f3e7;
+}
+
+/* Form Styles */
+.user-profile-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Button Styles */
+.update-button {
+  background-color: #6554AF;
+  color: #fff;
+  margin-top: 1rem;
+}
+.update-button:hover {
+  background-color: #544396;
+}
